@@ -6,7 +6,7 @@ name: Build UEFI for selected Device
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "main", "xiaomi-sweet" ]
     paths:
       - 'Platforms/*/Device/**'
   # Allows you to run this workflow manually from the Actions tab
